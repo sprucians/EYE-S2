@@ -22,18 +22,18 @@
 	witherBoneConversion = true
 	#Number of nuggets produced when an ore block is melted in the melter. 9 would give 1 ingot
 	#Range: 1 ~ 45
-	melterNuggetsPerOre = 12
+	melterNuggetsPerOre = 9
 	#Number of nuggets produced when an ore block is melted in the smeltery. 9 nuggets would give 1 ingot
 	#Range: 1 ~ 45
 	smelteryNuggetsPerOre = 18
 	#Number of nuggets produced when an ore block is melted in the foundry. 9 nuggets would give 1 ingot
 	#Range: 1 ~ 45
-	foundryNuggetsPerOre = 15
+	foundryNuggetsPerOre = 18
 
 #Everything to do with world generation
 [worldgen]
 	#Generate Copper
-	generateCopper = true
+	generateCopper = false
 	#Approx Ores per Chunk
 	veinCountCopper = 20
 	#Generate Cobalt
@@ -63,7 +63,7 @@
 		#Settings for clay islands in the overworld sky
 		[worldgen.slime_islands.clay]
 			#If true, this island generates
-			generate = true
+			generate = false
 			#How many chunks on average between islands
 			#Range: 10 ~ 500
 			separation = 100
