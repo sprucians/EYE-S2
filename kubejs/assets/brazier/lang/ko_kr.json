@@ -1,0 +1,17 @@
+{
+  "block.brazier.brazier": "화롯불",
+  "block.brazier.living_torch": "살아있는 횃불",
+  "block.brazier.living_lantern": "살아있는 랜턴",
+  "block.brazier.spawn_powder": "저주받은 재",
+  "item.brazier.living_flame": "살아있는 불꽃",
+  "entity.brazier.crazed_flame": "미치광이 불꽃",
+  "item.brazier.crazed_spawn_egg": "미치광이 생성 알",
+  "item.brazier.ash": "재",
+  "item.brazier.warped_nether_wart": "뒤틀린 네더 사마귀",
+  "entity.brazier.crazed": "미치광이",
+  "advancements.brazier.place_brazier.title": "아니다, 이 악마야",
+  "advancements.brazier.place_brazier.description": "화롯불을 설치하고 몬스터들의 습격을 방지하세요",
+  "description.brazier.brazier-1": "화톳불은 봉수대처럼 생긴 블록으로, 근처에 적대적인 몬스터가 생기는 것을 막습니다.",
+  "description.brazier.brazier-2": "\n평범한 횃불을 화톳불에 점화해 살아있는 횃불을 만들 수 있습니다.\n살아있는 횃불을 손에 들면 보호 구역의 범위를 볼 수 있습니다.",
+  "category.brazier.light_on_brazier": "화톳불의 빛"
+}

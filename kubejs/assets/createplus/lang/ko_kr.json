@@ -1,0 +1,11 @@
+{
+	"item.createplus.goggle_chainmail_helmet":"사슬 고글 투구",
+	"item.createplus.goggle_diamond_helmet":"다이아몬드 고글 투구",
+	"item.createplus.goggle_golden_helmet":"금 고글 투구",
+	"item.createplus.goggle_iron_helmet":"철 고글 투구",
+	"item.createplus.goggle_leather_helmet":"가죽 고글 투구",
+	"item.createplus.goggle_turtle_helmet":"거북 고글 투구",
+	"item.createplus.goggle_netherite_helmet":"네더라이트 고글 투구",
+	
+	"curios.identifier.createplus.goggle_slot":"고글s"
+}
