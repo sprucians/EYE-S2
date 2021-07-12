@@ -1,0 +1,78 @@
+{
+    "replace": false,
+    "variants": [
+        {
+            "key": "sword_socket/mana_gem",
+            "category": "gem",
+            "integrity": -1,
+	    "effects": {
+            "intuit":1
+            },
+            "glyph": {
+                "tint": "c34cff",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/socket/default",
+                "tint": "c34cff"
+            }]
+        },
+        {
+            "key": "sword_socket/amethyst_shard",
+            "category": "gem",
+            "attributes": {
+            "generic.attack_speed": 0.5,
+            "generic.attack_damage": -1
+            },
+            "integrity": -1,
+            "durability": -250,
+            "glyph": {
+                "tint": "8E6ACD",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/socket/default",
+                "tint": "8E6ACD"
+            }]
+        },
+        {
+            "key": "sword_socket/end_crystal",
+            "category": "gem",
+            "attributes": {
+            "generic.attack_damage": -0.5
+            },
+            "integrity": -1,
+            "durability": 250,
+            "glyph": {
+                "tint": "FBA5CA",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/socket/default",
+                "tint": "FBA5CA"
+            }]
+        },
+        {
+            "key": "sword_socket/eternal_crystal",
+            "category": "gem",
+            "durability": 512,
+            "durabilityMultiplier": 0.8,
+            "integrity": -1,
+            "glyph": {
+                "tint": "00fbf8",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/socket/default",
+                "tint": "00fbf8"
+            }],
+            "effects": {
+                "intuit": 3
+            }
+        }
+    ]
+}

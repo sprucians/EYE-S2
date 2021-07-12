@@ -1,0 +1,31 @@
+{
+   "key": "voidworm",
+   "category": "bone",
+   "primary": "10.0",
+   "secondary": "7.0",
+   "tertiary": "0.5",
+   "durability": "1128",
+   "integrityCost": "1",
+   "integrityGain": "7",
+   "magicCapacity": "128",
+   "toolLevel": "5",
+   "toolEfficiency": "10",
+   "tints": {
+	"glyph":"1b3f7a",
+	"texture":"1b3f7a"
+   },
+   "textures": [
+	"crude",
+	"default"
+   ],
+   "material": {
+ 	"item":"alexsmobs:void_worm_mandible"
+   },
+   "improvements": {
+       "workable": 7
+   },
+   
+	"requiredTools":{
+	"hammer":1
+   }
+}

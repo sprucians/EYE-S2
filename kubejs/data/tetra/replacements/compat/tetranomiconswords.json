@@ -1,0 +1,41 @@
+[
+  {
+    "predicate": {
+      "item": "betterendforge:terminite_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/terminite"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/terminite"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/terminite"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "betterendforge:aeternium_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/aeternium"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/aeternium"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/aeternium"]
+    },
+    "improvements": {
+      "sword/hilt:basic_hilt/wrap_leather": 1
+    }
+  },
+  {
+    "predicate": {
+      "item": "betterendforge:thallasium_sword"
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/thallasium"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/stick"],
+      "sword/pommel": ["sword/decorative_pommel", "decorative_pommel/thallasium"],
+      "sword/guard": ["sword/makeshift_guard", "makeshift_guard/thallasium"]
+    }
+  }
+]

@@ -1,0 +1,33 @@
+{
+    "key": "eternal_crystal",
+    "category": "gem",
+    "primary": "5",
+    "secondary": "1.2",
+    "tertiary": "0",
+    "durability": "870",
+    "integrityCost": "2",
+    "integrityGain": "2",
+    "magicCapacity": "70",
+    "toolLevel": "3",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "8ffff6",
+        "texture": "8ffff6"
+    },
+    "textures": [
+        "shiny",
+        "crude"
+    ],
+    "material": {
+        "item": "betterendforge:amber_gem"
+    },
+    "improvements": {
+        "arrested": 0
+    },
+    "effects": {
+        "intuit": 3
+    },
+    "requiredTools": {
+        "hammer": 7
+    }
+}

@@ -1,0 +1,27 @@
+{
+   "key": "cobbled_deepslate",
+   "category": "stone",
+   "primary": "4.2",
+   "secondary": "4.2",
+   "tertiary": "0.0",
+   "durability": "360",
+   "integrityCost": "1",
+   "integrityGain": "4",
+   "magicCapacity": "90",
+   "toolLevel": "2",
+   "toolEfficiency": "4.5",
+   "tints": {
+	"glyph":"46464B",
+	"texture":"46464B"
+   },
+   "textures": [
+	"crude",
+	"default"
+   ],
+   "material": {
+ 	"item":"cavesandcliffs:cobbled_deepslate"
+   },
+   "requiredTools":{
+	"hammer":2
+   }
+}

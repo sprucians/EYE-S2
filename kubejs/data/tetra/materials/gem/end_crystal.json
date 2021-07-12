@@ -1,0 +1,27 @@
+{
+   "key": "end_crystal",
+   "category": "gem",
+   "primary": "8",
+   "secondary": "2.9",
+   "tertiary": "0.0",
+   "durability": "1000",
+   "integrityCost": "2",
+   "integrityGain": "2",
+   "magicCapacity": "60",
+   "toolLevel": "5",
+   "toolEfficiency": "11",
+   "tints": {
+	"glyph":"FBA5CA",
+	"texture":"FBA5CA"
+   },
+   "textures": [
+	"shiny",
+	"default"
+   ],
+   "material": {
+ 	"item":"endrem:end_crystal_fragment"
+   },
+   "requiredTools":{
+	"hammer":4
+   }
+}

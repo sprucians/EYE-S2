@@ -1,0 +1,38 @@
+[
+      {
+          "predicate": {
+            "item": "betterendforge:terminite_axe"
+          },
+          "item": "tetra:modular_double",
+          "modules": {
+            "double/head_left": ["double/basic_axe_left", "basic_axe/terminite"],
+            "double/head_right": ["double/butt_right", "butt/terminite"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+          }
+      },
+      {
+          "predicate": {
+            "item": "betterendforge:aeternium_axe"
+          },
+          "item": "tetra:modular_double",
+          "modules": {
+            "double/head_left": ["double/basic_axe_left", "basic_axe/aeternium"],
+            "double/head_right": ["double/butt_right", "butt/aeternium"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+          },
+          "improvements": {
+            "double/handle:basic_handle/wrap_leather": 1
+          }
+      },
+      {
+          "predicate": {
+            "item": "betterendforge:thallasium_axe"
+          },
+          "item": "tetra:modular_double",
+          "modules": {
+            "double/head_left": ["double/basic_axe_left", "basic_axe/thallasium"],
+            "double/head_right": ["double/butt_right", "butt/thallasium"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+          }
+      }
+]

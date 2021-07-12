@@ -1,0 +1,31 @@
+{
+    "key": "eternal_flavolite",
+    "category": "stone",
+    "primary": "4",
+    "secondary": "4",
+    "tertiary": "0",
+    "durability": "24576",
+    "integrityCost": "4",
+    "integrityGain": "8",
+    "magicCapacity": "160",
+    "toolLevel": "5",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "bfa175",
+        "texture": "bfa175"
+    },
+    "textures": [
+        "grainy",
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "betterendforge:flavolite_runed_eternal"
+    },
+    "improvements": {
+        "arrested": 0
+    },
+    "requiredTools": {
+        "hammer": 6
+    }
+}

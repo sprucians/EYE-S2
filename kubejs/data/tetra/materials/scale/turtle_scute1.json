@@ -1,0 +1,28 @@
+{
+   "key": "spiked_scute",
+   "category": "scale",
+   "primary": "7.0",
+   "secondary": "0.4",
+   "tertiary": "0.8",
+   "durability": "250",
+   "integrityCost": "1",
+   "integrityGain": "5",
+   "magicCapacity": "90",
+   "toolLevel": "0",
+   "toolEfficiency": "0.0",
+   "tints": {
+	"glyph":"4e8a21",
+	"texture":"4e8a21"
+   },
+   "textures": [
+	"scale",
+	"default"
+   ],
+   "material": {
+ 	"item":"alexsmobs:spiked_scute"
+   },
+
+   "requiredTools":{
+	"hammer":3
+   }
+}

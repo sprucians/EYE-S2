@@ -1,0 +1,45 @@
+{
+    "replace": false,
+    "outcomes": [
+        {
+            "material": {
+                "item": "ars_nouveau:mana_gem"
+            },
+            "experienceCost": 5,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/mana_gem"
+        },
+        {
+            "material": {
+                "item": "cavesandcliffs:amethyst_shard"
+            },
+            "experienceCost": 5,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/amethyst_shard"
+        },
+        {
+            "material": {
+                "item": "endrem:end_crystal_fragment"
+            },
+            "experienceCost": 5,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/end_crystal"
+        },
+        {
+            "material": {
+                "item": "betterendforge:eternal_crystal"
+            },
+            "experienceCost": 20,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/eternal_crystal"
+        },
+        {
+            "material": {
+                "item": "betterendforge:amber_gem"
+            },
+            "experienceCost": 2,
+            "moduleKey": "sword/socket",
+            "moduleVariant": "sword_socket/amber"
+        }
+    ]
+}
