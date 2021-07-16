@@ -24,6 +24,7 @@ onEvent('recipes', event => {
 	event.remove({output: 'create_stuff_additions:brass_portable_drill'})
 	event.remove({output: 'create_stuff_additions:copper_exoskeleton_chestplate'})
 	event.remove({output: 'create_stuff_additions:refined_radiance_exoskeleton_chestplate'})
+	event.remove({output: 'create_stuff_additions:zinc_handle'})
 	event.remove({output: 'immersiveengineering:furnace_heater'})
 })
 
