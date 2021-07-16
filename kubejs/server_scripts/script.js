@@ -21,6 +21,9 @@ onEvent('recipes', event => {
 	event.remove({output: 'create_stuff_additions:shadow_steel_pickaxe'})
 	event.remove({output: 'create_stuff_additions:shadow_steel_shovel'})
 	event.remove({output: 'create_stuff_additions:shadow_steel_sword'})
+	event.remove({output: 'create_stuff_additions:brass_portable_drill'})
+	event.remove({output: 'create_stuff_additions:copper_exoskeleton_chestplate'})
+	event.remove({output: 'create_stuff_additions:refined_radiance_exoskeleton_chestplate'})
 	event.remove({output: 'immersiveengineering:furnace_heater'})
 })
 
