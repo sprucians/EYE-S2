@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " L ",
+    " E ",
+    " E ",
+    " L ",
+    " O "
+  ],
+  "key": {
+    "E": {
+      "item": "create_stuff_additions:refined_radiance_neon"
+    },
+    "O": {
+      "tag": "forge:obsidian"
+    },
+    "L": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "result": {
+    "item": "create:wand_of_symmetry"
+  }
+}

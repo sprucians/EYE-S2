@@ -1,0 +1,26 @@
+{
+  "group": "create_stuff_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "create:powdered_obsidian"
+    },
+    "1": {
+      "item": "minecraft:blaze_powder"
+    },
+    "2": {
+      "item": "minecraft:blaze_powder"
+    },
+    "3": {
+      "item": "create:powdered_obsidian"
+    }
+  },
+  "result": {
+    "item": "create_stuff_additions:blazing_alloy",
+    "count": 1
+  }
+}

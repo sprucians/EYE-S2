@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "AVA",
+    "AGA",
+    "AFA"
+  ],
+  "key": {
+  	"A": {
+      "item": "create:andesite_alloy"
+    },
+    "V": {
+      "item": "create:shadow_steel"
+    },
+    "G": {
+      "item": "minecraft:furnace"
+    },
+    "F": {
+      "item": "create:blaze_burner"
+    }
+  },
+  "result": {
+    "item": "createaddition:furnace_burner"
+  }
+}

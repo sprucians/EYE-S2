@@ -1,0 +1,21 @@
+{
+  "group": "create_stuff_additions",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "4  ",
+    "555",
+    "5 5"
+  ],
+  "key": {
+    "4": {
+      "item": "create:redstone_link"
+    },
+    "5": {
+      "item": "create:brass_ingot"
+    }
+  },
+  "result": {
+    "item": "create_stuff_additions:brass_helmet",
+    "count": 1
+  }
+}
