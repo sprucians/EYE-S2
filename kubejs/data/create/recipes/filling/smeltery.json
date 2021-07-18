@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "tconstruct:seared_heater"
+    },
+    {
+      "fluid": "tconstruct:molten_copper",
+      "amount": 576
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:smeltery_controller"
+    }
+  ]
+}

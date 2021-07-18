@@ -1,0 +1,34 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "tag": "forge:sandstone"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "fluid": "createaddition:seed_oil",
+      "nbt": {},
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:cokebrick"
+    }
+  ],
+  "heatRequirement": "heated"
+}
