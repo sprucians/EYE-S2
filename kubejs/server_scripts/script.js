@@ -25,9 +25,7 @@ onEvent('recipes', event => {
 	event.remove({output: 'create_stuff_additions:copper_exoskeleton_chestplate'})
 	event.remove({output: 'create_stuff_additions:refined_radiance_exoskeleton_chestplate'})
 
-	event.remove({id: 'createaddition:crafting/spool'})
 	event.remove({id: 'createaddition:crafting/gold_spool'})
-	event.remove({id: 'createaddition:crafting/copper_spool'})
 
 	event.remove({output: 'immersiveengineering:furnace_heater'})
 	event.remove({input: 'immersiveengineering:furnace_heater'})
