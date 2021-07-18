@@ -19,7 +19,7 @@
 		transferRate = 2048
 		#The percentage of power lost every 16 blocks of distance in copper wire
 		#Range: 0.0 ~ 1.0
-		loss = 0.05
+		loss = 0.0
 		#In- and output rates of copper wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
 		wireConnectorInput = 256
@@ -33,7 +33,7 @@
 		transferRate = 8192
 		#The percentage of power lost every 16 blocks of distance in electrum wire
 		#Range: 0.0 ~ 1.0
-		loss = 0.025
+		loss = 0.0
 		#In- and output rates of electrum wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
 		wireConnectorInput = 1024
@@ -47,7 +47,7 @@
 		transferRate = 32768
 		#The percentage of power lost every 16 blocks of distance in hv wire
 		#Range: 0.0 ~ 1.0
-		loss = 0.025
+		loss = 0.0
 		#In- and output rates of hv wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
 		wireConnectorInput = 4096
@@ -144,10 +144,10 @@
 	[machines.external_heater]
 		#The Flux per tick consumed to add one heat to a furnace. Creates up to 4 heat in the startup time and then 1 heat per tick to keep it running
 		#Range: > 1
-		consumption = 8
+		consumption = 9999999999999999999999
 		#The Flux per tick consumed to double the speed of the furnace. Only happens if furnace is at maximum heat.
 		#Range: > 1
-		speedupConsumption = 24
+		speedupConsumption = 999999999999999
 
 	[machines.coredrill]
 		#The length in ticks it takes for the Core Sample Drill to figure out which mineral is found in a chunk
@@ -309,7 +309,7 @@
 		timeModifier = 1.0
 		#The maximum amount of damage Graphite Electrodes can take. While the furnace is working, electrodes sustain 1 damage per tick, so this is effectively the lifetime in ticks. The default value of 96000 makes them last for 8 consecutive ingame days
 		#Range: > 1
-		electrodeDamage = 96000
+		electrodeDamage = 384000
 		#The recycling functionality of the arc furnace is no longer controlled by a config option.
 		#Like all IE recipes, this is now controlled via a datapack, using the recipe file:
 		#immersiveengineering/recipes/arc_recycling_list.json
@@ -354,16 +354,16 @@
 	[ores.copper]
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 8
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		min_y = 40
+		min_y = 0
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = 72
+		max_y = 0
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 8
+		avg_veins_per_chunk = 0
 		#Set this to true to allow retro-generation of copper Ore.
 		retrogen_enable = false
 
@@ -439,16 +439,16 @@
 	[ores.uranium]
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 4
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		min_y = 8
+		min_y = 0
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = 24
+		max_y = 0
 		#The average number of veins per chunk
 		#Range: > 0
-		avg_veins_per_chunk = 2
+		avg_veins_per_chunk = 0
 		#Set this to true to allow retro-generation of uranium Ore.
 		retrogen_enable = false
 
