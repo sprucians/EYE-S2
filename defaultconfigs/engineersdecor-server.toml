@@ -102,7 +102,7 @@
 		#Range: 2 ~ 1024
 		furnace_boost_energy_consumption = 24
 		#Defines (as comma separated list of full registry names) which items are allowed as external heaters in the Aux slot for powered speed boosting.
-		furnace_accepted_heaters = "immersiveengineering:furnace_heater"
+		furnace_accepted_heaters = "immersiveengineering:furnace_heater","createaddition:heater"
 		#Defines, in percent, how high the probability is that a mob sits on a chair when colliding with it. Can be changed on-the-fly for tuning.
 		#Range: 0.0 ~ 80.0
 		chair_mob_sitting_probability_percent = 10.0
@@ -127,7 +127,7 @@
 		e_furnace_automatic_pulling = false
 		#Defines the peak power production (at noon) of the Small Solar Panel. Note that the agerage power is much less, as no power is produced at all during the night, and the power curve is nonlinear rising/falling during the day. Bad weather conditions also decrease the production. The config value can be changed on-the-fly for tuning.
 		#Range: 2 ~ 4096
-		small_solar_panel_peak_production = 40
+		small_solar_panel_peak_production = 10
 		#Defines how much RF power the Small Block Breaker requires to magnificently increase the processing speed. The config value can be changed on-the-fly for tuning.
 		#Range: 4 ~ 1024
 		block_breaker_power_consumption = 64
@@ -138,7 +138,7 @@
 		#Range: 10 ~ 100
 		block_breaker_min_breaking_time = 15
 		#Defines if the Small Block Breaker does not work without RF power.
-		block_breaker_requires_power = false
+		block_breaker_requires_power = true
 		#Defines how much RF power the Small Tree Cutter requires to magnificently increase the processing speed. The config value can be changed on-the-fly for tuning.
 		#Range: 4 ~ 1024
 		tree_cutter_energy_consumption = 64
@@ -146,7 +146,7 @@
 		#Range: 10 ~ 240
 		tree_cutter_cutting_time_needed = 60
 		#Defines if the Small Tree Cutter does not work without RF power.
-		tree_cutter_requires_power = false
+		tree_cutter_requires_power = true
 		#Defines how much time the Small Milking Machine needs work. Note this is a permanent standby power, not only when the device does something. Use zero to disable energy dependency and energy handling of the machine. The config value can be changed on-the-fly for tuning.
 		#Range: 0 ~ 1024
 		milking_machine_energy_consumption = 0
