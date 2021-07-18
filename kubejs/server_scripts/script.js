@@ -24,8 +24,16 @@ onEvent('recipes', event => {
 	event.remove({output: 'create_stuff_additions:brass_portable_drill'})
 	event.remove({output: 'create_stuff_additions:copper_exoskeleton_chestplate'})
 	event.remove({output: 'create_stuff_additions:refined_radiance_exoskeleton_chestplate'})
-	event.remove({output: 'create_stuff_additions:zinc_handle'})
+
+	event.remove({id: 'createaddition:crafting/spool'})
+	event.remove({id: 'createaddition:crafting/gold_spool'})
+	event.remove({id: 'createaddition:crafting/copper_spool'})
+
 	event.remove({output: 'immersiveengineering:furnace_heater'})
+	event.remove({input: 'immersiveengineering:furnace_heater'})
+	event.remove({id: 'immersiveengineering:crafting/alloybrick'})
+	event.remove({id: 'immersiveengineering:crafting/cokebrick'})
+	event.remove({id: 'immersiveengineering:crafting/blastbrick'})
 })
 
 onEvent('item.tags', event => {
