@@ -1,9 +1,0 @@
-{
-	"type":"createaddition:rolling",
-	"input": {
-      	"tag": "forge:plates/copper"
-	},
-	"result": {
-		"item": "immersiveengineering:wire_copper"
-	}
-}
