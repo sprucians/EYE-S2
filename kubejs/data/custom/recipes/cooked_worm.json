@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "waterstrainer:worm"
+    },
+    "result": "kubejs:cooked_worm",
+    "experience": 0.1,
+    "cookingtime": 100
+}

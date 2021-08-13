@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "kubejs:grass_strip"
+        }
+    },
+    "result": {
+        "item": "farmersdelight:straw",
+        "count": 1
+    }
+}

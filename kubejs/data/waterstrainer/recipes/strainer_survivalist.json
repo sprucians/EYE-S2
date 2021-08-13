@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" S ",
+		"SNS",
+		" S "
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:stick"
+		},
+		"N": {
+			"item": "waterstrainer:string_mesh"
+		}
+	},
+	"result": {
+		"item": "waterstrainer:strainer_survivalist"
+	}
+}

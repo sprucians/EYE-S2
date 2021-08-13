@@ -1,0 +1,11 @@
+{
+	id: "7AFE88F145848784"
+	group: ""
+	order_index: 5
+	filename: "7AFE88F145848784"
+	title: "몬스터 사냥"
+	icon: "minecraft:creeper_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

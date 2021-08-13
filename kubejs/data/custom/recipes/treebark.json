@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "minecraft:logs"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:tree_bark",
+      "count": 2
+    }
+  ],
+  "processingTime": 120
+}

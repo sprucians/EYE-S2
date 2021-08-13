@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"ABA",
+		"BNB",
+		"ABA"
+	],
+	"key": {
+		"A": {
+			"item": "kubejs:grass_string"
+		},
+		"B": {
+			"tag": "minecraft:leaves"
+		},
+		"N": {
+			"item": "waterstrainer:string_mesh"
+		}
+	},
+	"result": {
+		"item": "waterstrainer:strainer_fisherman"
+	}
+}

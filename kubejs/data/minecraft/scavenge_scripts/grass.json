@@ -1,0 +1,83 @@
+{
+    "scripts": {
+        "id": "test:pebble",
+        "swing": true,
+        "drop_rule": "block",
+        "properties": [
+            {
+                "property": "scavenge_player:has_item",
+                "item": "waterstrainer:garden_trowel"
+            },
+            {
+                "property": "scavenge_player:is_hand"
+            },
+            {
+                "property": "scavenge_player:is_sneaking"
+            },
+            {
+                "property": "scavenge_utils:conditional_effect",
+                "test": {
+                    "property": "scavenge_player:real_player"
+                },
+                "true": {
+                    "property": "scavenge_player:add_exhaustion",
+                    "exhaustion": 0.1
+                },
+                "false": {
+                    "property": "scavenge_utils:default_effect"
+                }
+            },
+            {
+                "property": "scavenge_player:add_exhaustion",
+                "exhaustion": 0.08
+            },
+            {
+                "property": "scavenge_player:damage_item",
+                "amount": 1
+            }
+        ],
+        "loot": [
+            {
+                "lootPool": "minecraft:grass1",
+                "conditions": [
+                    {
+                        "property": "scavenge_utils:random",
+                        "chance": 50.0
+                    }
+                ]
+            },
+            {
+                "lootPool": "minecraft:worm",
+                "conditions": [
+                    {
+                        "property": "scavenge_utils:random",
+                        "chance": 5.0
+                    }
+                ]
+            }
+        ],
+        "type": {
+            "type": "right_click",
+            "consume": true,
+            "show": true
+        },
+        "targets": [
+            {
+                "type": "blocks",
+                "id": [
+                    "minecraft:grass_block"
+                ]
+            }
+        ]
+    }
+}
+
+- id: The Unique Identifier of the Script
+- swing: if the Player Hand should be swung on Condition Success [Optional]
+- drop_rule: How the Loot should be spawned, (Valid Values: "block": spawns at the Block, "player": Let the player drop it, "player_inv": Adds it to the player inv.) [Optional]
+- loot_seed: custom loottable seed, 0 means world seed [Optional]
+- targets: What Blocks should be affected by this script, can be Object or Array
+- properties: The Conditions & Effects that should be in this script. Execution Order: Top to Bottom
+- loot: LootTables that should be added. Just the id of the loottables. This spawns loot of the successful finishing of a Script
+- type: The Type of the script and if the right click should be consumed and if the right click should be shown in JEI. (Valid values: right_click, left_click), can be object or Array
+Scripts are only valid if they have either Loot or Script Effects. And At least 1 valid Target

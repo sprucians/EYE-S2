@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" D ",
+		"DND",
+		" D "
+	],
+	"key": {
+		"D": {
+			"item": "minecraft:diamond"
+		},
+		"N": {
+			"item": "waterstrainer:obsidian_mesh"
+		}
+	},
+	"result": {
+		"item": "waterstrainer:strainer_survivalist_reinforced"
+	}
+}

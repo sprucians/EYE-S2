@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"RYG",
+		" T ",
+		" C "
+	],
+	"key": {
+		"R": {
+			"tag": "forge:dyes/red"
+		},
+		"Y": {
+			"tag": "forge:dyes/yellow"
+		},
+		"G": {
+			"tag": "forge:dyes/green"
+		},
+		"T": {
+			"item": "minecraft:redstone_torch"
+		},
+		"C": {
+			"item": "minecraft:clock"
+		}
+	},
+	"result": {
+		"item": "waterstrainer:efficiency_meter"
+	}
+}

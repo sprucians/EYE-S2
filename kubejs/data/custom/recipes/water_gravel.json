@@ -1,0 +1,17 @@
+{
+  "type": "interactio:item_fluid_transform",
+  "inputs": [
+    {
+      "item": "minecraft:gravel",
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "fluid": "water"
+  },
+  "output": {
+    "item": "minecraft:flint",
+    "count": 1
+  },
+  "consume_fluid": 0.0
+}
