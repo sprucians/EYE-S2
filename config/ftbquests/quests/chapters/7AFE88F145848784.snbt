@@ -7,5 +7,61 @@
 	icon: "minecraft:creeper_head"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "76979C79BA494771"
+			tasks: [{
+				id: "2FF585F7E2BFDB0E"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "5FD5A8BF65B4B910"
+			tasks: [{
+				id: "537F915757FF73FE"
+				type: "kill"
+				entity: "minecraft:creeper"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "3B1B49FCA8A08BEE"
+			tasks: [{
+				id: "5078EA65C4282ADA"
+				type: "kill"
+				entity: "minecraft:skeleton"
+				value: 1L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "73237947DD495F95"
+			tasks: [{
+				id: "58C27D68FB8A5CA9"
+				type: "kill"
+				entity: "minecraft:spider"
+				value: 1L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "3EBFC27D5D92CAF8"
+			tasks: [{
+				id: "162A08A485E3241C"
+				type: "kill"
+				entity: "minecraft:enderman"
+				value: 1L
+			}]
+		}
+	]
 }

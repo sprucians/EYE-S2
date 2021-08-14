@@ -7,14 +7,96 @@
 	icon: "minecraft:wheat_seeds"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -0.5d
-		y: 0.0d
-		id: "43D1CB4796EF5E7E"
-		tasks: [{
-			id: "5588B23B13ECAD46"
-			type: "item"
-			item: "minecraft:wheat_seeds"
-		}]
-	}]
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "43D1CB4796EF5E7E"
+			tasks: [{
+				id: "5588B23B13ECAD46"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			id: "6C7DAEB828048986"
+			tasks: [{
+				id: "52E261FAD9F4AEEC"
+				type: "item"
+				item: "minecraft:beetroot_seeds"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "02FEFD33A443436E"
+			tasks: [{
+				id: "3C94D35E818C7604"
+				type: "item"
+				item: "farmersdelight:cabbage_seeds"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			id: "5C350AC238261668"
+			tasks: [{
+				id: "6022FC644C7F1CEF"
+				type: "item"
+				item: "farmersdelight:tomato_seeds"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			id: "03736D74D58C407A"
+			tasks: [{
+				id: "1CA585769C88A98B"
+				type: "item"
+				item: "minecraft:pumpkin_seeds"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "643BA22ACF43ECA2"
+			tasks: [{
+				id: "4B4E44C5D10A3177"
+				type: "item"
+				item: "minecraft:melon_seeds"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "53B791D25138D55D"
+			tasks: [{
+				id: "0FD28273277F6656"
+				type: "item"
+				item: "immersiveengineering:seed"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "739DAE5DADEF03F5"
+			tasks: [{
+				id: "4839F4B6ECBD1894"
+				type: "item"
+				item: "minecraft:cocoa_beans"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			id: "35C553DF15CBC6F5"
+			tasks: [{
+				id: "4D9183A268C0AC1E"
+				type: "item"
+				item: "quark:shallow_dirt"
+			}]
+		}
+	]
 }

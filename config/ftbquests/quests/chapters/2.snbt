@@ -13,20 +13,100 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		id: "152B996EE10F67DA"
-		tasks: [{
-			id: "58CC17714A0F874E"
-			type: "item"
-			item: {
-				id: "tconstruct:pickaxe_head"
-				Count: 1b
-				tag: {
-					Material: "tconstruct:stone"
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "152B996EE10F67DA"
+			tasks: [{
+				id: "58CC17714A0F874E"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:stone"
+					}
 				}
-			}
-		}]
-	}]
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["152B996EE10F67DA"]
+			id: "51A9A35E53A84EDA"
+			tasks: [{
+				id: "0A9FF81A844F914E"
+				type: "item"
+				item: "tconstruct:grout"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["51A9A35E53A84EDA"]
+			id: "7E9B6FD680F1E4C3"
+			tasks: [{
+				id: "515FE4A6F14529DE"
+				type: "item"
+				item: "tconstruct:puny_smelting"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["51A9A35E53A84EDA"]
+			id: "7F9BBFD08F6E2560"
+			tasks: [{
+				id: "57FE5EB333489229"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["7F9BBFD08F6E2560"]
+			id: "33FD56B17FFDC04F"
+			tasks: [{
+				id: "1368DA8FD019F5E0"
+				type: "item"
+				item: "tconstruct:blank_sand_cast"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			dependencies: ["33FD56B17FFDC04F"]
+			id: "4328D8C770550242"
+			tasks: [{
+				id: "5AEC455AF434978A"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["33FD56B17FFDC04F"]
+			id: "70DF55822C01FEB8"
+			tasks: [{
+				id: "3BAD4925571394B1"
+				type: "item"
+				item: {
+					id: "tconstruct:small_blade"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:seared_stone"
+					}
+				}
+			}]
+		}
+	]
 }

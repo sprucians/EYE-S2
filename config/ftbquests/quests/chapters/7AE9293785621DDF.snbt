@@ -230,5 +230,16 @@
 				}
 			}]
 		}
+		{
+			x: 4.0d
+			y: 2.5d
+			id: "001DFD8234F8E23C"
+			tasks: [{
+				id: "20759CA04A1CF682"
+				type: "item"
+				item: "minecraft:furnace"
+				count: 27L
+			}]
+		}
 	]
 }

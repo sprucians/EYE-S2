@@ -4,7 +4,69 @@
 	order_index: 4
 	filename: "45BDB1205A82A2BE"
 	title: "아이템 보관"
+	icon: "storagedrawers:oak_full_drawers_1"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "30FD2347B226C9CE"
+			tasks: [{
+				id: "04D3757FFCEA3025"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "3EB7AB66B863192B"
+			tasks: [{
+				id: "1D211C6DE28926E7"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_2"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "3587ED5410EECE77"
+			tasks: [{
+				id: "5567856BE287512F"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_4"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "0CEBA33FFAAB00C6"
+			tasks: [{
+				id: "4D64672CFDD8FAC9"
+				type: "item"
+				item: "framedcompactdrawers:framed_full_one"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			id: "5F4BE148E0828296"
+			tasks: [{
+				id: "664F89DCC13B9E08"
+				type: "item"
+				item: "colossalchests:uncolossal_chest"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			id: "393D20EC255CB748"
+			tasks: [{
+				id: "79A67E33CB4715C4"
+				type: "item"
+				item: "colossalchests:colossal_chest_wood"
+			}]
+		}
+	]
 }
