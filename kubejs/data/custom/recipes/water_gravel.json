@@ -7,7 +7,8 @@
     },
     {
       "item": "waterstrainer:iron_mesh",
-      "count": 1
+      "count": 1,
+      "return_chance": 1
     }
   ],
   "fluid": {
