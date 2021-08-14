@@ -1,0 +1,32 @@
+{
+	id: "33A416E91EB2D501"
+	group: "434AAFE5EE189FD9"
+	order_index: 3
+	filename: "2"
+	title: "도구 - 2"
+	icon: {
+		id: "tconstruct:pickaxe_head"
+		Count: 1b
+		tag: {
+			Material: "tconstruct:stone"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "152B996EE10F67DA"
+		tasks: [{
+			id: "58CC17714A0F874E"
+			type: "item"
+			item: {
+				id: "tconstruct:pickaxe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:stone"
+				}
+			}
+		}]
+	}]
+}

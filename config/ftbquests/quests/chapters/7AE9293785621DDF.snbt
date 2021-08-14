@@ -1,0 +1,234 @@
+{
+	id: "7AE9293785621DDF"
+	group: "434AAFE5EE189FD9"
+	order_index: 0
+	filename: "7AE9293785621DDF"
+	title: "맷돌과 나"
+	icon: "create:millstone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 0.0d
+			dependency_requirement: "all_started"
+			id: "7903909AC27922D3"
+			tasks: [{
+				id: "69A3636BA58A615B"
+				type: "item"
+				item: "kubejs:grass_string"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["3A7096BDD12ADE17"]
+			id: "656ADC7E92673B83"
+			tasks: [{
+				id: "38229BC6AF3A278B"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "46090ECFCCF16616"
+			tasks: [{
+				id: "799CC14A43DF817B"
+				type: "item"
+				item: "woodenhopper:wooden_hopper"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "6F186A1D41CE31EE"
+			tasks: [{
+				id: "605075C1C981A5B6"
+				type: "item"
+				item: {
+					id: "woodenshears:wshears_oak"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: [
+				"7903909AC27922D3"
+				"6F186A1D41CE31EE"
+				"46090ECFCCF16616"
+			]
+			id: "3A7096BDD12ADE17"
+			tasks: [{
+				id: "48F62EF9575E4368"
+				type: "item"
+				item: "waterstrainer:strainer_base"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			dependencies: ["3A7096BDD12ADE17"]
+			id: "24E5E2E117BA629F"
+			tasks: [{
+				id: "27AB52538C98F488"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_fisherman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			dependencies: ["24E5E2E117BA629F"]
+			id: "30FA7F97E10F841B"
+			tasks: [{
+				id: "3D213813AFA52962"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			dependencies: ["656ADC7E92673B83"]
+			id: "67CAEE402DD9B109"
+			tasks: [{
+				id: "103D63291D0A1905"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			dependencies: ["48B154D03502EB16"]
+			id: "2CB3ACFF8899D4D1"
+			tasks: [{
+				id: "4FF64E06EFF6C456"
+				type: "item"
+				item: "minecraft:kelp"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			dependencies: [
+				"67CAEE402DD9B109"
+				"24E5E2E117BA629F"
+			]
+			id: "5D5A698430432D4C"
+			tasks: [{
+				id: "7DAF61474A6F0E0F"
+				type: "item"
+				item: "minecraft:iron_nugget"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.5d
+			dependencies: ["5D5A698430432D4C"]
+			id: "2CE512DFEA12E463"
+			tasks: [{
+				id: "750586AE8EC50DFC"
+				type: "item"
+				item: "minecraft:bedrock"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 7.5d
+			dependencies: ["67CAEE402DD9B109"]
+			id: "72683C8CFA712247"
+			tasks: [{
+				id: "730352B54D3CC2BF"
+				type: "item"
+				item: "ceramics:unfired_clay_bucket"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			dependencies: ["67CAEE402DD9B109"]
+			id: "34DEED470053017D"
+			tasks: [{
+				id: "6590F5861555BEA0"
+				type: "item"
+				item: "ceramics:kiln"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			dependencies: ["67CAEE402DD9B109"]
+			id: "016A06E9A157FB19"
+			tasks: [{
+				id: "34506DFDB20F462F"
+				type: "item"
+				item: "ceramics:clay_cistern"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.5d
+			dependencies: ["67CAEE402DD9B109"]
+			id: "3C29E90543EC3692"
+			tasks: [{
+				id: "06C0C8512D80177E"
+				type: "item"
+				item: {
+					id: "ceramicshears:ceramic_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			dependencies: ["5D5A698430432D4C"]
+			id: "48B154D03502EB16"
+			tasks: [{
+				id: "1EF08C78B7F77354"
+				type: "item"
+				item: "waterstrainer:iron_mesh"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			dependencies: ["2CB3ACFF8899D4D1"]
+			id: "520C78D5AFD55DEB"
+			tasks: [{
+				id: "31710F76E86CB4A6"
+				type: "item"
+				item: {
+					id: "ceramics:clay_bucket"
+					Count: 1b
+					tag: {
+						fluid: "minecraft:water"
+					}
+				}
+			}]
+		}
+	]
+}

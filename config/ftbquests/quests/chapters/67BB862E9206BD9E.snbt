@@ -1,0 +1,20 @@
+{
+	id: "67BB862E9206BD9E"
+	group: "434AAFE5EE189FD9"
+	order_index: 1
+	filename: "67BB862E9206BD9E"
+	title: "농사"
+	icon: "minecraft:wheat_seeds"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -0.5d
+		y: 0.0d
+		id: "43D1CB4796EF5E7E"
+		tasks: [{
+			id: "5588B23B13ECAD46"
+			type: "item"
+			item: "minecraft:wheat_seeds"
+		}]
+	}]
+}

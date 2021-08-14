@@ -1,0 +1,229 @@
+{
+	id: "0000000000000008"
+	group: ""
+	order_index: 0
+	filename: "_vs_"
+	title: "소개"
+	icon: "minecraft:writable_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "모드팩에 관한 간단한 설명"
+			description: [
+				"EYE팩에 오신 것을 환영합니다."
+				"Enhance Your Experience 모드팩은 기존 마인크래프트의 경험을 조금 더 발전시킨 모드들로 이루어져 있습니다."
+				"이번 시즌 2 EYE팩은 스카이블록에서 시작하게 되었습니다."
+				""
+				"이 팩의 퀘스트는 대부분 가이드라인으로 구성되어 있습니다."
+				"따라서 게임을 진행하다 모르는 부분이 있다면 퀘스트를 열어보세요."
+				""
+				"이 챕터에서는 모드팩을 플레이할 때 유용한 기능들을 소개합니다."
+			]
+			size: 1.8d
+			id: "0000000000000009"
+			tasks: [{
+				id: "000000000000000A"
+				type: "checkmark"
+				title: "환영합니다"
+				icon: "minecraft:book"
+			}]
+		}
+		{
+			title: "JEI 사용하기 1"
+			icon: "minecraft:paper"
+			x: 0.0d
+			y: -4.5d
+			subtitle: "조합법 알아보기"
+			description: [
+				"인벤 창을 열면 오른쪽에 아이템 목록이 뜹니다. 여기서 아이템의 조합법과 사용처를 알 수 있습니다."
+				""
+				"R키 - 해당 아이템의 조합법을 봅니다."
+				""
+				"U키 - 해당 아이템의 사용처를 봅니다."
+				""
+				"A키 - 해당 아이템을 북마크에 추가합니다. 북마크는 왼쪽 상단에서 확인 할 수 있습니다."
+				""
+				"단축키 외에도 오른쪽 아래에 검책창이 있으며, 설정 버튼도 위치해 있습니다."
+			]
+			dependencies: ["0000000000000009"]
+			id: "000000000000000B"
+			tasks: [{
+				id: "000000000000000C"
+				type: "checkmark"
+				title: "오..."
+			}]
+		}
+		{
+			title: "JEI 사용하기 2"
+			icon: "minecraft:paper"
+			x: 1.0d
+			y: -4.5d
+			subtitle: "특정 모드의 아이템 검색하기 "
+			description: [
+				"검색창에 특정 기호를 넣어 필터를 설정할 수 있습니다."
+				""
+				"@(모드이름) - 해당 모드가 추가하는 아이템을 나열합니다."
+				""
+				"#(내용) - 툴팁의 내용을 검색합니다."
+				""
+				"(내용) | (내용) - 다중 검색 기능입니다."
+			]
+			dependencies: ["000000000000000B"]
+			id: "000000000000000D"
+			tasks: [{
+				id: "000000000000000E"
+				type: "checkmark"
+				title: "5..."
+			}]
+		}
+		{
+			title: "FTB 청크 이용하기"
+			icon: "minecraft:map"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "자기 땅 보호하기"
+			description: [
+				"기본 단축키 M을 누르면, 현재 자기가 돌아다닌 지역을 확인할 수 있습니다."
+				""
+				"왼쪽 상단에 여러 메뉴가가 있습니다."
+				"Claimed Chunks - 자신이 보호할 청크를 선택합니다. 쉬프트 클릭으로 청크로딩을 설정할 수 있습니다."
+				"Allies - 화이트리스트 추가 "
+				"Add Waypoints - 자신의 위치에 포인트를 찍습니다."
+				""
+				"왼쪽 아래에 환경설정 버튼이 있습니다."
+			]
+			dependencies: ["000000000000000B"]
+			id: "000000000000000F"
+			tasks: [{
+				id: "0000000000000010"
+				type: "checkmark"
+				title: "Oh...."
+			}]
+		}
+		{
+			title: "블록 정보 알아보기"
+			icon: "theoneprobe:probe"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"화면 왼쪽 상단에 자신이 바라보는 블럭의 정보가 나타납니다."
+				""
+				"Probe를 이용해 상세정보를 알 수 있습니다."
+			]
+			dependencies: ["000000000000000F"]
+			id: "0000000000000011"
+			tasks: [{
+				id: "0000000000000012"
+				type: "checkmark"
+				title: "컨픽 파일에서 설정을 변경할 수 있습니다!"
+			}]
+			rewards: [{
+				id: "0000000000000017"
+				type: "item"
+				item: "theoneprobe:probe"
+			}]
+		}
+		{
+			title: "많이 쓰는 명령어, 단축키 모음"
+			icon: "minecraft:compass"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"/sethome /home"
+				"/rtp /tpa /spawn"
+				"/tpaaccept /tpadeny"
+				"/ftbteam /ftbchunks"
+				"인벤에서 쉬프트 + 채팅 키(기본T) : 아이템 채팅에 띄우기"
+				"M : 미니맵 열기"
+			]
+			dependencies: ["0000000000000011"]
+			id: "0000000000000013"
+			tasks: [{
+				id: "0000000000000014"
+				type: "checkmark"
+				title: "응애"
+			}]
+		}
+		{
+			title: "퀘스트 시스템"
+			icon: "minecraft:oak_log"
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"퀘스트의 대부분은 아이템 인식으로 이루어져 있습니다."
+				"아이템이 인벤토리에 들어오면 퀘스트가 완료됩니다."
+				""
+				"퀘스트 창에서 직접 조합법을 보는 것이 가능합니다."
+				"아무 나무 원목 1개를 얻어보세요."
+			]
+			dependencies: ["0000000000000013"]
+			id: "0000000000000015"
+			tasks: [{
+				id: "0000000000000018"
+				type: "item"
+				title: "나무 원목"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:oak_log"
+								Count: 1b
+							}
+							{
+								id: "minecraft:spruce_log"
+								Count: 1b
+							}
+							{
+								id: "minecraft:birch_log"
+								Count: 1b
+							}
+							{
+								id: "minecraft:jungle_log"
+								Count: 1b
+							}
+							{
+								id: "minecraft:acacia_log"
+								Count: 1b
+							}
+							{
+								id: "minecraft:dark_oak_log"
+								Count: 1b
+							}
+							{
+								id: "forbidden_arcanus:edelwood_log"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000019"
+				type: "item"
+				title: "이제 시작해봅시다."
+				item: "farmersdelight:cooked_rice"
+			}]
+		}
+		{
+			title: "쉐이더를 사용하고 싶다면"
+			x: 2.0d
+			y: -6.0d
+			description: [
+				"쉐이더를 사용하고 싶다면, mods폴더에서 sodium_reforged 파일을 제거하고, 옵티파인을 넣어주세요."
+				""
+				"다만 게임이 조금 무거워질수 있습니다."
+			]
+			dependencies: ["0000000000000009"]
+			id: "634769236F8F0B43"
+			tasks: [{
+				id: "7601F8657476F49A"
+				type: "checkmark"
+			}]
+		}
+	]
+}
