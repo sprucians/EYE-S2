@@ -1,13 +1,16 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
-		" # ",
-		"# #",
-		" # "
+		"###",
+		"#A#",
+		"###"
 	],
 	"key": {
 		"#": {
-			"item": "minecraft:iron_bars"
+			"item": "minecraft:iron_nugget"
+		},
+		"A": {
+			"item": "waterstrainer:string_mesh"
 		}
 	},
 	"result": {

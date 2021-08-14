@@ -6,13 +6,7 @@
         {
           "type": "minecraft:item",
           "weight": 1,
-          "name": "minecraft:cobblestone"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "quality": 23,
-          "name": "minecraft:stone"
+          "name": "kubejs:world_piece"
         }
       ]
     }

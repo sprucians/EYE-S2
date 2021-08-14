@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "kubejs:gravel_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:gravel_dust",
+      "count":1,
+      "chance": 0.5
+    },
+    {
+      "item": "kubejs:sand_dust",
+      "count":1,
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 40
+}

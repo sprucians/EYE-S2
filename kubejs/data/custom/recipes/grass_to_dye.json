@@ -2,7 +2,7 @@
   "type": "create:milling",
   "ingredients": [
     {
-      "item": "kubdjs:grass_strip"
+      "item": "kubejs:grass_strip"
     }
   ],
   "results": [

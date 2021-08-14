@@ -1,19 +1,22 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
-		"I I",
+		"IAI",
 		"WHW",
 		"WCW"
 	],
 	"key": {
 		"I": {
-			"item": "minecraft:iron_bars"
+			"tag": "minecraft:fences"
 		},
 		"W": {
 			"tag": "minecraft:planks"
 		},
 		"H": {
-			"item": "minecraft:hopper"
+			"item": "woodenhopper:wooden_hopper"
+		},
+		"A": {
+			"item": "minecraft:stone_pressure_plate"
 		},
 		"C": {
 			"tag": "forge:chests/wooden"
